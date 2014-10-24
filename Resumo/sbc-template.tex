@@ -1,7 +1,7 @@
 \documentclass[12pt]{article}
 
 \usepackage{sbc-template}
-
+\usepackage{indentfirst}
 \usepackage{graphicx,url}
 
 \usepackage[brazil]{babel}   
@@ -12,153 +12,93 @@
 
 \title{Instructions for Authors of SBC Conferences\\ Papers and Abstracts}
 
-\author{Luciana P. Nedel\inst{1}, Rafael H. Bordini\inst{2}, Flávio Rech
-  Wagner\inst{1}, Jomi F. Hübner\inst{3} }
+\author{Odirlei B. Pereira\inst{1}}
 
 
-\address{Instituto de Informática -- Universidade Federal do Rio Grande do Sul
-  (UFRGS)\\
-  Caixa Postal 15.064 -- 91.501-970 -- Porto Alegre -- RS -- Brazil
-\nextinstitute
-  Department of Computer Science -- University of Durham\\
-  Durham, U.K.
-\nextinstitute
-  Departamento de Sistemas e Computação\\
-  Universidade Regional de Blumenal (FURB) -- Blumenau, SC -- Brazil
-  \email{\{nedel,flavio\}@inf.ufrgs.br, R.Bordini@durham.ac.uk,
-  jomi@inf.furb.br}
+\address{Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul
+  (IFMS)\\
+  CEP 79.021-000 -- Campo Grande -- MS -- Brazil
 }
 
 \begin{document} 
 
 \maketitle
 
-\begin{abstract}
-  This meta-paper describes the style to be used in articles and short papers
-  for SBC conferences. For papers in English, you should add just an abstract
-  while for the papers in Portuguese, we also ask for an abstract in
-  Portuguese (``resumo''). In both cases, abstracts should not have more than
-  10 lines and must be in the first page of the paper.
-\end{abstract}
+
      
 \begin{resumo} 
-  Este meta-artigo descreve o estilo a ser usado na confecção de artigos e
-  resumos de artigos para publicação nos anais das conferências organizadas
-  pela SBC. É solicitada a escrita de resumo e abstract apenas para os artigos
-  escritos em português. Artigos em inglês deverão apresentar apenas abstract.
-  Nos dois casos, o autor deve tomar cuidado para que o resumo (e o abstract)
-  não ultrapassem 10 linhas cada, sendo que ambos devem estar na primeira
-  página do artigo.
+  Este artigo tem a finalidade de apresentar as funcionalidades de Sistema Operacional Kali-Linux.
+  Dentre suas funcionalidades, serão mostradas em sala os softwares desenvolvidos espeialmente para esse Sistema.
 \end{resumo}
 
 
-\section{General Information}
+\section{Informação Geral}
 
-All full papers and posters (short papers) submitted to some SBC conference,
-including any supporting documents, should be written in English or in
-Portuguese. The format paper should be A4 with single column, 3.5 cm for upper
-margin, 2.5 cm for bottom margin and 3.0 cm for lateral margins, without
-headers or footers. The main font must be Times, 12 point nominal size, with 6
-points of space before each paragraph. Page numbers must be suppressed.
+Não é novidade que o acesso à tecnologia da informação e à inclusão digital
+aumentam a cada dia que passa, nos dias atuais, em uma era globalizada,
+onde quase tudo é movido através das novas tendências tecnológicas, hoje é
+possível que uma pessoa, utilizando-se de um computador e possuindo acesso
+à rede mundial de computadores "internet", possa usufruir de serviços
+de sistemas financeiro online como "netbank", trocar e-mails, adquirir vários
+tipos de produtos através do comércio eletrônico etc.
 
-Full papers must respect the page limits defined by the conference.
-Conferences that publish just abstracts ask for \textbf{one}-page texts.
-
-\section{First Page} \label{sec:firstpage}
-
-The first page must display the paper title, the name and address of the
-authors, the abstract in English and ``resumo'' in Portuguese (``resumos'' are
-required only for papers written in Portuguese). The title must be centered
-over the whole page, in 16 point boldface font and with 12 points of space
-before itself. Author names must be centered in 12 point font, bold, all of
-them disposed in the same line, separated by commas and with 12 points of
-space after the title. Addresses must be centered in 12 point font, also with
-12 points of space after the authors' names. E-mail addresses should be
-written using font Courier New, 10 point nominal size, with 6 points of space
-before and 6 points of space after.
-
-The abstract and ``resumo'' (if is the case) must be in 12 point Times font,
-indented 0.8cm on both sides. The word \textbf{Abstract} and \textbf{Resumo},
-should be written in boldface and must precede the text.
-
-\section{CD-ROMs and Printed Proceedings}
-
-In some conferences, the papers are published on CD-ROM while only the
-abstract is published in the printed Proceedings. In this case, authors are
-invited to prepare two final versions of the paper. One, complete, to be
-published on the CD and the other, containing only the first page, with
-abstract and ``resumo'' (for papers in Portuguese).
-
-\section{Sections and Paragraphs}
-
-Section titles must be in boldface, 13pt, flush left. There should be an extra
-12 pt of space before each title. Section numbering is optional. The first
-paragraph of each section should not be indented, while the first lines of
-subsequent paragraphs should be indented by 1.27 cm.
-
-\subsection{Subsections}
-
-The subsection titles must be in boldface, 12pt, flush left.
-
-\section{Figures and Captions}\label{sec:figs}
+Paralelamente com as facilidades do mundo digital, a fim de se manter seguro
+e proteger os dados que ali estão inseridos e comuns, na maioria das
+empresas, a utilização de tecnologias avançadas para proteção de seus ativos,
+sejam eles tangíveis ou intangíveis. Soluções que vão desde um simples
+antivírus a complexos sistemas de criptografia, aliados às potentes regras
+de um sistema de firewall ou implementação de sistemas de detecção de
+intrusos IDS.
 
 
-Figure and table captions should be centered if less than one line
-(Figure~\ref{fig:exampleFig1}), otherwise justified and indented by 0.8cm on
-both margins, as shown in Figure~\ref{fig:exampleFig2}. The caption font must
-be Helvetica, 10 point, boldface, with 6 points of space before and after each
-caption.
+\section{O Kali Linux} \label{sec:firstpage}
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.5\textwidth]{fig1.jpg}
-\caption{A typical figure}
-\label{fig:exampleFig1}
-\end{figure}
+Kali é uma reconstrução completa do BackTrack Linux, que adere totalmente aos padrões de desenvolvimento do Debian. Uma infraestrutura completamente nova foi montada, todas as ferramentas foram revistas e empacotadas, e nós utilizamos Git como nosso Sistema de Controle de Versões.
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.3\textwidth]{fig2.jpg}
-\caption{This figure is an example of a figure caption taking more than one
-  line and justified considering margins mentioned in Section~\ref{sec:figs}.}
-\label{fig:exampleFig2}
-\end{figure}
+\begin{itemize}
+\item Mais de 300 ferramentas de testes de intrusão: Depois de rever cada ferramenta que estava incluída no Backtrack, eliminamos um grande número de ferramentas que não funcionavam, ou para as quais havia outra ferramenta com funcionalidade semelhante.
+\item Kernel adaptado para injeção de pacotes: Como consultores de testes de intrusão, a equipe de desenvolvimento às vezes precisa fazer avaliações em redes sem fio, então nosso kernel já inclui os últimos patches de injeção de pacotes.
+\item Múltiplos idiomas: Embora as ferramentas usadas em testes de intrusão tendam a ser escritas em inglês, nós nos asseguramos que o Kali possuísse um suporte a idiomas real, permitindo que mais usuários o operassem no seu idioma nativo, e encontrasse as ferramentas de que precisa para realizar suas tarefas .
+\item Vasto suporte à dispositivos wireless: Construímos o kali Linux para suportar tantos dispositivos wireless quanto pudemos, permitindo que o mesmo executasse adequadamente numa vasta gama de hardware e o tornando compatível como diversos outros dispositivos sem fio e USB entre diversos outros.
+\item Suporte à ARMEL e ARMHF: Já que os sistemas baseados em processadores ARM estão se tornando mais e mais presentes e baratos, sabíamos que o suporte a processadores ARM no Kali precisaria ser o tão robusto quanto pudéssemos gerenciar, o que resultou em instaladores funcionais tanto para sistemas ARMEL quanto para ARMHF. Kali Linux tem repositórios ARM integrados com a distribuição principal, então ferramentas para ARM serão atualizadas em conjunto com o resto da distribuição. Kali atualmente está disponível para os seguintes dispositivos ARM:
+\begin{itemize}
+\item rk3306 mk/ss808
+\item Raspberry Pi
+\item ODROID U2/X2
+\item Samsung Chromebook
+\end{itemize}
+\end{itemize}
 
-In tables, try to avoid the use of colored or shaded backgrounds, and avoid
-thick, doubled, or unnecessary framing lines. When reporting empirical data,
-do not use more decimal digits than warranted by their precision and
-reproducibility. Table caption must be placed before the table (see Table 1)
-and the font used must also be Helvetica, 10 point, boldface, with 6 points of
-space before and after each caption.
+ 
+\section{Histórico do sistema}
 
-\begin{table}[ht]
-\centering
-\caption{Variables to be considered on the evaluation of interaction
-  techniques}
-\label{tab:exTable1}
-\includegraphics[width=.7\textwidth]{table.jpg}
-\end{table}
+Inicialmente intitulado de \textbf{BackTrack}, essa distribuição era mantida pela comunidade disponibilizando através do site http://www.backtrack-linux.org/ o sistema, suporte atravéz de fóruns e documentação do mesmo.
+Essa distro foi descontinuada no início deste ano e tendo como continuidade o \textbf{Kali} trazendo mudanças no sistema, como, software desatualizados e melhorias no sistema bem como um suporte mais abrangente nos termos de documentação do mesmo. No site http://www.kali.org/ podemos obter o download das distros suporte tecnico e treinamentos com certificação. Estes trainamentos são pagos e ministrados por empresas certificadas e conceituadas. Suas certifiações são:
+\begin{itemize}
+\item Offensive Security Certified Professional certification (OSCP)
+\item Offensive Security Wireless Professional (OSWP)
+\item Offensive Security Certified Expert (OSCE)
+\item Offensive Security Exploitation Expert (OSEE)
+\item Offensive Security Web Expert (OSWE) 
+\end{itemize}
+ Versões para \textbf{VMWare, ARM} e \textbf{Android} estão disponíveis para download assim como a versão atual do sistema \textbf{kali-linux-1.0.9}. A documentação está em português e isso ajuda muito na utilização do sistema instalado.
 
-\section{Images}
 
-All images and illustrations should be in black-and-white, or gray tones,
-excepting for the papers that will be electronically available (on CD-ROMs,
-internet, etc.). The image resolution on paper should be about 600 dpi for
-black-and-white images, and 150-300 dpi for grayscale images.  Do not include
-images with excessive resolution, as they may take hours to print, without any
-visible difference in the result. 
+\subsection{Licença de uso}
+
+O \textbf{Kali-Linus}, como seu predecessor, é completamente livre, e sempre permanecerá como tal. Você nunca, nunca terá que pagar pelo Kali Linux. Seu repositório está disponível para todos que todos vejam e todos os fontes estão disponíveis para aqueles que desejem adaptar e remontar os pacotes. 
+
+ 
 
 \section{References}
 
-Bibliographic references must be unambiguous and uniform.  We recommend giving
-the author names references in brackets, e.g. \cite{knuth:84},
-\cite{boulic:91}, and \cite{smith:99}.
+Official Kali Linux Documentation
+Disponível em http://www.kali.org/official-documentation/
 
-The references must be listed using 12 point font size, with 6 points of space
-before each reference. The first line of each reference should not be
-indented, while the subsequent should be indented by 0.5 cm.
+BackTrack Linux - Penetration Testing Distribution
+Disponível em http://www.backtrack-linux.org/
 
-\bibliographystyle{sbc}
-\bibliography{sbc-template}
+
+
 
 \end{document}

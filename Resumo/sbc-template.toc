@@ -1,0 +1,9 @@
+\select@language {brazil}
+\contentsline {section}{\numberline {1}Informa\c c\~ao Geral}{1}
+\contentsline {section}{\numberline {2}First Page}{1}
+\contentsline {section}{\numberline {3}CD-ROMs and Printed Proceedings}{1}
+\contentsline {section}{\numberline {4}Sections and Paragraphs}{2}
+\contentsline {subsection}{\numberline {4.1}Subsections}{2}
+\contentsline {section}{\numberline {5}Figures and Captions}{2}
+\contentsline {section}{\numberline {6}Images}{3}
+\contentsline {section}{\numberline {7}References}{3}
